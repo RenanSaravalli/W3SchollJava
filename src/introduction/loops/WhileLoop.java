@@ -12,5 +12,13 @@ public class WhileLoop {
             i++;
         }
 
+        // Temos também o do while
+
+        /*
+        * do {
+        *  Code block to be executed
+        * } while (condition)
+        * */
+        // O do while é utilizado quando queremos executar o código ao menos uma vez
     }
 }
