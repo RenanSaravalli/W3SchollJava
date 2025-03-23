@@ -17,7 +17,7 @@ public class Ex019 {
         System.out.print("Quarto Aluno: ");
         String aluno4 = read.next();
 
-        String listAlunos[] = {aluno1, aluno2, aluno3, aluno4};
+        String[] listAlunos = {aluno1, aluno2, aluno3, aluno4};
         String alunoSorteado = listAlunos[indexSorteado.nextInt(4)];
 
         System.out.println("O aluno(a) escolhido foi " + alunoSorteado);
