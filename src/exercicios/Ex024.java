@@ -7,12 +7,20 @@ public class Ex024 {
         Scanner read = new Scanner(System.in);
 
         System.out.print("Em que cidade você nasceu? ");
-        String cidade = read.nextLine();
+        String cidade = read.nextLine().strip().toLowerCase();
+        // Strip remove os espaços iniciais e finais de uma string;
+        // toLowerCase() -> Para deixar td em minúsculo
 
-        String cidadeLower = cidade.toLowerCase();
 
-        String[] arrayCidade = cidadeLower.split(" ");
+        String[] arrayCidade = cidade.split(" ");
+
 
         System.out.println((arrayCidade[0].equals("santo")));
+
+        System.out.println("--------------------");
+
+        // Realizando de outro métod utilizando startsWith e endsWith
+
+        System.out.println(cidade.startsWith("santo"));
     }
 }
